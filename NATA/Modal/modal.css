@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); 
+
+body{
+    width: 400px;
+    height: 260px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+.modal-header{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+
+.close{
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
+.modal-body{
+    padding: 0px 20px;
+
+}
+
+
+
+.cancel{
+    border: 1px solid gray;
+    background-color: gray;
+    color: white    ;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.logout{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 1.2rem;
+}
