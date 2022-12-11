@@ -5,13 +5,14 @@
     margin: 0;
     box-sizing: border-box;
     color: gray;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Nunito';
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
     h6 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-left: 15px;
         margin-top: 8px;
 
@@ -25,6 +26,7 @@
 
     p{
         margin: 15px 15px;
+    
     }
 }
 
@@ -44,23 +46,26 @@
     }
 
     .form{
-        width: 1050px;
+        width: 1300px;
         margin: 10px 15px;
     }
 }
-
+ hr{
+    margin: 0px 14px;
+    
+ }
 .alert-info {
     border: 1px solid rgb(100, 255, 203);
     background-color: rgb(100, 255, 203);
     color: black;
     padding: 5px 5px;
-    width: 1200px;
+    width: 1300px;
     margin: 0px 20px;
     border-radius: 4px;
 }
 
 .copyright{
-    margin: 180px 300px;
+    margin: 180px 340px;
     a{
         color: blue;
         text-decoration: none;
