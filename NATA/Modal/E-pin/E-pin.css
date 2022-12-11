@@ -9,15 +9,22 @@
   background-color: rgb(255, 255, 255);
 }
 
+:var{
+  --inputOutline: 3px solid rgb(210, 206, 206)
+}
+
+:focus{
+  outline: var(--inputOutline);
+}
 .container h6 {
   font-size: 1.2rem;
   margin-left: 15px;
   margin-top: 8px;
 }
 .container h6 .badge {
-  border: 1px solid blue;
+  border: 1px solid rgb(38, 38, 238);
   border-radius: 5px;
-  background-color: blue;
+  background-color: rgb(38, 38, 238);
   color: white;
 }
 .container p {
@@ -25,9 +32,9 @@
 }
 
 .post .actions .btn {
-  border: 1px solid blue;
+  border: 1px solid rgb(38, 38, 238);
   border-radius: 5px;
-  background-color: blue;
+  background-color: rgb(38, 38, 238);
   color: white;
   width: 90px;
   height: 40px;
@@ -35,7 +42,9 @@
 }
 .post .form {
   width: 1300px;
+  height: 40px;
   margin: 10px 15px;
+  border-radius: 5px;
 }
 
 hr {
