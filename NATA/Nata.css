@@ -191,32 +191,10 @@ p {
   padding: 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px),
-(max-width: 767px) {
-  .navbar-brand {
-    padding: 5px 0px;
-  }
-}
-
 .navbar-brand img {
   max-width: 160px;
 }
 
-.navbar-toggler {
-  padding: 0;
-}
-
-.navbar-toggler .toggler-icon {
-  width: 30px;
-  height: 2px;
-  background-color: var(--white);
-  display: block;
-  margin: 5px 0;
-  position: relative;
-  -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
- 
 
 .navbar-nav .nav-item {
   position: relative;
@@ -324,9 +302,6 @@ p {
   color: var(--heading-color);
 }
 
-.sticky .navbar-toggler .toggler-icon {
-  background-color: var(--heading-color);
-}
 
 .sticky .navbar-nav .nav-item:hover>a {
   color: var(--primary-color);

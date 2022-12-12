@@ -1,13 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+$inputOutline: 3px solid rgb(210, 206, 206);
 
 * {
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: gray;
     font-size: 1.1rem;
     font-family: 'Nunito';
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 241, 241);
+
 }
 
 .container {
@@ -24,13 +27,13 @@
         }
     }
 
-    p{
+    p {
         margin: 15px 15px;
-    
+
     }
 }
 
-.post { 
+.post {
     .actions {
 
         .btn {
@@ -38,24 +41,30 @@
             border-radius: 5px;
             background-color: rgb(38, 38, 238);
             color: white;
-            width: 90px;
+            width: 5.5%;
             height: 40px;
             margin: 30px 15px;
         }
 
     }
 
-    .form{
+    .form {
         width: 1300px;
         height: 40px;
         margin: 10px 15px;
         border-radius: 5px;
+        border: 1px solid rgb(175, 175, 179);
+        &:focus {
+            outline: $inputOutline;
+        }
     }
 }
- hr{
+
+hr {
     margin: 0px 14px;
-    
- }
+
+}
+
 .alert-info {
     border: 1px solid rgb(100, 255, 203);
     background-color: rgb(100, 255, 203);
@@ -66,9 +75,12 @@
     border-radius: 4px;
 }
 
-.copyright{
+.copyright {
     margin: 180px 340px;
-    a{
+    align-content: center;
+    text-align: center;
+
+    a {
         color: blue;
         text-decoration: none;
     }

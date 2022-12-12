@@ -6,16 +6,9 @@
   color: gray;
   font-size: 1.1rem;
   font-family: "Nunito";
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 241, 241);
 }
 
-:var{
-  --inputOutline: 3px solid rgb(210, 206, 206)
-}
-
-:focus{
-  outline: var(--inputOutline);
-}
 .container h6 {
   font-size: 1.2rem;
   margin-left: 15px;
@@ -36,7 +29,7 @@
   border-radius: 5px;
   background-color: rgb(38, 38, 238);
   color: white;
-  width: 90px;
+  width: 5.5%;
   height: 40px;
   margin: 30px 15px;
 }
@@ -45,6 +38,10 @@
   height: 40px;
   margin: 10px 15px;
   border-radius: 5px;
+  border: 1px solid rgb(175, 175, 179);
+}
+.post .form:focus {
+  outline: 3px solid rgb(210, 206, 206);
 }
 
 hr {
@@ -63,6 +60,8 @@ hr {
 
 .copyright {
   margin: 180px 340px;
+  align-content: center;
+  text-align: center;
 }
 .copyright a {
   color: blue;
